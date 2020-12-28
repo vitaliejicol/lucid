@@ -8,6 +8,6 @@ module "alb" {
   alb-tag         = "Lucid Application Load Balancer"
 }
 
-output "Application Load Balancer" {
+output "lb_address" {
   value = "${module.alb.aws-alb}"
 }
