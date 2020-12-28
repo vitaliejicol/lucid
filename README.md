@@ -17,3 +17,6 @@ Terminal$:terraform output lb_address
 * What aspects need to be considered to make the code work in a CD pipeline (how does it successfully and safely get into production)?
 
 - I will come up with an answer. 
+
+
+* Two things I didn't finish: autoscalling and ec2 role for RDS. But I added other small features to the code.
